@@ -1,8 +1,8 @@
 import { IProduct } from "../../types/index.ts";
 
 export class Catalog {
-  items: IProduct[] = [];
-  selectedItem: IProduct | null = null;
+  private items: IProduct[] = [];
+  private selectedItem: IProduct | null = null;
 
   constructor() {}
 

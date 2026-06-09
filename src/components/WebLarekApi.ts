@@ -6,7 +6,7 @@ import {
 } from "../types/index.ts";
 
 export class WebLarekApi {
-  api: IApi;
+  private api: IApi;
   constructor(api: IApi) {
     this.api = api;
   }

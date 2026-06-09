@@ -1,10 +1,10 @@
 import { IBuyer, IBuyerErrors, TPayment } from "../../types/index.ts";
 
 export class Customer {
-  payment: TPayment = "";
-  address: string = "";
-  phone: string = "";
-  email: string = "";
+  private payment: TPayment | "" = "";
+  private address: string = "";
+  private phone: string = "";
+  private email: string = "";
 
   constructor() {}
 

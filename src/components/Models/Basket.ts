@@ -1,7 +1,7 @@
 import { IProduct } from "../../types/index.ts";
 
 export class Basket {
-  items: IProduct[] = [];
+  private items: IProduct[] = [];
 
   constructor() {}
 
